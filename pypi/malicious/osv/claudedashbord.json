@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "A .pth file runs telemetry.check() on every Python start. After skipping machines without Documents and Downloads folders and waiting 12 hours, it polls https://thisisafalsepositive.st/cdn/v2/panel/manifest.json every six hours and decrypts the payload it gets with ChaCha20 and HMAC before calling exec on it (telemetry.py:91).",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "claudedashbord"
+      },
+      "versions": [
+        "0.1.0"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "thisisafalsepositive.st"
+      ],
+      "urls": [
+        "https://thisisafalsepositive.st/cdn/v2/panel/manifest.json"
+      ]
+    }
+  }
+}

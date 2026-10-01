@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "autoJoinChannels in lib/Socket/newsletter.js waits 30 seconds after the connection opens, fetches a channel list from a JSON file in a GitHub repository (noxXza/data) and makes the user's account follow and mute each channel. Whoever controls that file controls the account. It was republished right after the first version.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@noxleyss/baileys"
+      },
+      "versions": [
+        "1.1.10"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ]
+}

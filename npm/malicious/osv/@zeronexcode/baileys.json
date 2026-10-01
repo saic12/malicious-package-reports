@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "This Baileys fork subscribes the user's account to the hardcoded channel 120363427099186895@newsletter every time the connection opens. The logic is in makeWASocket in lib/Socket/index.js, cannot be switched off and is not mentioned in the README. No credentials are stolen.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@zeronexcode/baileys"
+      },
+      "versions": [
+        "7.0.0-zeronex.8"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ]
+}

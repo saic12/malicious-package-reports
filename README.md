@@ -8,9 +8,15 @@ Reports are [OSV](https://ossf.github.io/osv-schema/) JSON, one file per package
 
 ```
 pypi/malicious/osv/<package>.json
+pypi/pentest/osv/<package>.json    security tests, proofs of concept, CTF probes
 npm/malicious/osv/<package>.json   (scoped names: npm/malicious/osv/@scope/<name>.json)
+npm/pentest/osv/<package>.json
 withdrawn/                          reports we got wrong, kept with a note
 ```
+
+`pentest` holds packages that still take data or run code they should not, but read
+as testing rather than an attack (named as a test, a PoC exfiltrating CTF flags, a
+callback-only probe). They are kept apart so they can be weighed separately.
 
 Each report says what the package does, where the code is and when it runs,
 which versions were checked, and any indicators (domains, URLs, IPs) found in it.

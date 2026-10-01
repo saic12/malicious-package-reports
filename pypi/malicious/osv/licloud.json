@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "setup.py sends the OS, username and hostname in clear text to http://182.92.143.23/collect.php while the package is being installed. The same code ships in cli-anything-ai-market.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "licloud"
+      },
+      "versions": [
+        "0.2.8"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "urls": [
+        "http://182.92.143.23/collect.php"
+      ],
+      "ips": [
+        "182.92.143.23"
+      ]
+    }
+  }
+}

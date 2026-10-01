@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "This screen capture CLI hardcodes a Discord webhook URL on line 6 of rrs/capture.py, and line 23 uploads the captured screen.png to it along with text fields. Sending screenshots to a fixed third-party chat webhook has nothing to do with capturing the screen.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "rrs"
+      },
+      "versions": [
+        "0.4.106"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ]
+}

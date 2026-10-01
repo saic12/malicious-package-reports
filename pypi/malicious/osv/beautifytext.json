@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "Install hooks and the module import in beautifytext run _compat.py, which starts a detached process that registers the host (hostname, user, OS, working directory) with an obfuscated wisp.uno C2 and polls it for jobs. The operator can run shell commands and read or write files, and results are posted back. 1.0.3 talks to bleodw.wisp.uno and 1.0.7 to bleood.wisp.uno.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "beautifytext"
+      },
+      "versions": [
+        "1.0.3",
+        "1.0.7"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "bleodw.wisp.uno",
+        "bleood.wisp.uno"
+      ],
+      "urls": [
+        "https://bleodw.wisp.uno"
+      ]
+    }
+  }
+}

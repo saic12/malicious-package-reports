@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "Running the CLI attaches to Chrome's debugging port and injects JavaScript into open pages. When a hotkey or mouse action fires, page text and editor input go to https://ai-script.test0ing7.workers.dev/ and the reply is typed back into the page. It also sets NODE_TLS_REJECT_UNAUTHORIZED=0.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "godsplan"
+      },
+      "versions": [
+        "3.0.2"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "ai-script.test0ing7.workers.dev"
+      ],
+      "urls": [
+        "https://ai-script.test0ing7.workers.dev/"
+      ]
+    }
+  }
+}

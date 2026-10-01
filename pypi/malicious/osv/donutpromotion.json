@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "This Windows dropper poses as a Minecraft SMP donation tool. setup.py runs telemetry.check(), which decrypts an embedded payload that evades VMs, analysis tools and debuggers, then pulls a ZIP hidden in a PNG from thisisafalsepositive.st and starts python.exe AppHost/main.py in a hidden window.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "donutpromotion"
+      },
+      "versions": [
+        "0.1.0"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "thisisafalsepositive.st"
+      ],
+      "urls": [
+        "https://thisisafalsepositive.st/cdn/v2/9f4e7a2c1b8d.png"
+      ]
+    }
+  }
+}

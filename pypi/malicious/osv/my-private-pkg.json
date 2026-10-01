@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "During the build, an install hook runs a collection script that sends the username, working path, hostname, local IP, OS and CPU details to a personal webhook.site address. The 99.1.1 version number points to a dependency confusion attempt.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "my-private-pkg"
+      },
+      "versions": [
+        "99.1.1"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "webhook.site"
+      ]
+    }
+  }
+}

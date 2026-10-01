@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "The package passes itself off as a greeting helper, but run_demo() decodes and executes Base64 and gzip hidden code that reads Snowflake tokens and config files and encrypts them with a hardcoded public key. Other embedded payloads copy Snowflake data into a fixed external S3 bucket and generate follow-up package source containing the stolen data.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "friendly-greeting-tools"
+      },
+      "versions": [
+        "0.3.1"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ]
+}

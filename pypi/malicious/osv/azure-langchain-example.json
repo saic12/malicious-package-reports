@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "Importing the package starts a background thread from src/azure_langchain_example/__init__.py. The thread is written to send the hostname, host IP and a timestamp in the query string of https://litellm.adversarylabx.com/.telemetry, ignores errors, and the README says nothing about it.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "azure-langchain-example"
+      },
+      "versions": [
+        "0.1.0"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "litellm.adversarylabx.com"
+      ],
+      "urls": [
+        "https://litellm.adversarylabx.com/.telemetry"
+      ]
+    }
+  }
+}

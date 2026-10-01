@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "setup.py calls coinscan.telemetry.check() at module level. On machines with Documents and Downloads folders it fetches a manifest from thisisafalsepositive.st, decrypts the new payload with ChaCha20 and HMAC and runs it with exec (telemetry.py:99). Same structure and C2 as donutpromotion and claudedashbord.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "coinscan"
+      },
+      "versions": [
+        "0.1.0"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "thisisafalsepositive.st"
+      ],
+      "urls": [
+        "https://thisisafalsepositive.st/cdn/v2/coinscan/manifest.json"
+      ]
+    }
+  }
+}

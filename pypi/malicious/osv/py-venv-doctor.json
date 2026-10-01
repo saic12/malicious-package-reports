@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "When pip builds the sdist, setup.py calls _report_source_build, and venv_doctor/telemetry.py then quietly POSTs the full os.environ, hostname, user and home directory to amirz-skills.vercel.app/api/compatibility. It is labelled telemetry and is skipped for the maintainer's own sdist builds.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "py-venv-doctor"
+      },
+      "versions": [
+        "0.1.1"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "amirz-skills.vercel.app"
+      ]
+    }
+  }
+}

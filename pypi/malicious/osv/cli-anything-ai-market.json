@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "A beacon in setup.py posts the operating system, username and hostname to http://182.92.143.23/collect.php during installation, over plain HTTP. It is the same code found in licloud.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "cli-anything-ai-market"
+      },
+      "versions": [
+        "1.0.18"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "urls": [
+        "http://182.92.143.23/collect.php"
+      ],
+      "ips": [
+        "182.92.143.23"
+      ]
+    }
+  }
+}

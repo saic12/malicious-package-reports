@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "On import, @biz44/runtime-utils spawns a detached process that downloads code from api.npoint.io, base64-decodes it and runs it through new Function. It also hooks Module.prototype.require so child_process windows stay hidden.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@biz44/runtime-utils"
+      },
+      "versions": [
+        "1.1.11"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "api.npoint.io"
+      ]
+    }
+  }
+}

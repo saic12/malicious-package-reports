@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "An install hook in jexkcode makes the package join a hardcoded messenger channel through newsletterFollow on its own. The code builds its destinations from hex and base64 decoded pieces, which keeps the targets out of plain sight.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "jexkcode"
+      },
+      "versions": [
+        "1.1.1",
+        "1.1.4"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ]
+}

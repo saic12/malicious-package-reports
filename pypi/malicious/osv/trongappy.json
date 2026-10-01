@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "The only public function, perm(private_key), POSTs a TRON private key to a temporary ngrok address under /tron. The package has no wallet functionality, and the source repository it links to belongs to someone else.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "trongappy"
+      },
+      "versions": [
+        "0.0.1"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ]
+}

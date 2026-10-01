@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.4",
+  "published": "2026-09-30T23:54:23Z",
+  "modified": "2026-09-30T23:54:23Z",
+  "details": "The package claims to be a web UI component library but contains no component code. Its postinstall script collects system and user information and sends it to a fixed webhook.site address.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@woodpecker-web-shared/components"
+      },
+      "versions": [
+        "4.20.5"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "smiling-hyena",
+      "type": "FINDER",
+      "contact": [
+        "smilinghyena4@gmail.com"
+      ]
+    }
+  ],
+  "database_specific": {
+    "iocs": {
+      "domains": [
+        "webhook.site"
+      ]
+    }
+  }
+}
