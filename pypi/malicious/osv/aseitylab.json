@@ -31,6 +31,7 @@
       "urls": [
         "https://thisisafalsepositive.st/cdn/v2/9f4e7a2c1b8d.png"
       ]
-    }
+    },
+    "campaign": "2026-09-thisisafalsepositive-loader"
   }
 }

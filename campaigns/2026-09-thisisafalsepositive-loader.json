@@ -1,0 +1,8 @@
+{
+  "name": "2026-09-thisisafalsepositive-loader",
+  "ecosystem": "pypi",
+  "category": "malicious",
+  "packages": ["claudedashbord", "donutpromotion", "coinscan", "aseitylab"],
+  "iocs": {"domains": ["thisisafalsepositive.st"]},
+  "description": "Small PyPI packages whose setup.py or a .pth file calls a telemetry or compat helper at install or interpreter start. The helper fetches or decodes a second stage tied to thisisafalsepositive.st and executes it; coinscan only proceeds when the home directory looks like a real desktop, and donutpromotion and aseitylab are Windows droppers, aseitylab hiding its payload in a PNG after checking for a VM or debugger."
+}
