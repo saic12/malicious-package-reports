@@ -1,13 +1,8 @@
-<img width="1239" height="360" alt="logo" src="https://github.com/user-attachments/assets/54db1e77-4f7a-43de-b6d6-8f140f8477cc" />
+<img width="1000" height="400" alt="logo" src="https://github.com/user-attachments/assets/54db1e77-4f7a-43de-b6d6-8f140f8477cc" />
 <p align="center">
   <img src="./logo.png" alt="smiling-hyena logo" width="580">
 </p>
 
-<p align="center">
-  <a href="https://hyena-dashboard-314003657440.asia-northeast3.run.app/">
-    <img src="https://img.shields.io/badge/website-visit-brightgreen?style=flat" alt="Visit the smiling-hyena website">
-  </a>
-</p>
 
 Evidence-driven malicious package detection for the open-source ecosystem.
 
