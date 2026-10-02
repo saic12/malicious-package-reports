@@ -1,3 +1,4 @@
+<img width="1239" height="360" alt="logo" src="https://github.com/user-attachments/assets/54db1e77-4f7a-43de-b6d6-8f140f8477cc" />
 <p align="center">
   <img src="./logo.png" alt="smiling-hyena logo" width="580">
 </p>
