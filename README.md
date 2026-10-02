@@ -1,4 +1,4 @@
-<img width="1000" height="350" alt="logo" src="https://github.com/user-attachments/assets/54db1e77-4f7a-43de-b6d6-8f140f8477cc" />
+<img width="1000" height="300" alt="logo" src="https://github.com/user-attachments/assets/54db1e77-4f7a-43de-b6d6-8f140f8477cc" />
 <p align="center">
   <a href="https://hyena-dashboard-314003657440.asia-northeast3.run.app/">
     <img src="https://img.shields.io/badge/website-visit-brightgreen?style=flat" alt="Visit the smiling-hyena website">
